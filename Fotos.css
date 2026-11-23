@@ -1,0 +1,99 @@
+@font-face {
+    font-family: Pol;
+    src: url(Fonts/Pol.ttf);
+}
+
+*{
+    cursor: url(Cursor/fish_cursor.png), auto;
+    scrollbar-width: none;
+    padding: 0px;
+    margin: 0px;
+    font-family: Pol;
+}
+
+nav{
+    background-color: rgba(0, 170, 255, 0.5);
+    position: sticky;
+    top: 0px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a{
+    color: rgb(18, 35, 63);
+}
+
+nav a:hover{
+    letter-spacing: 5px;
+    text-decoration: underline 2px rgb(150, 255, 255);
+}
+
+body{
+    background-image: linear-gradient(rgb(161, 241, 255),rgb(0, 0, 28));
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+button, input, a:hover {
+    cursor: url(Cursor/fish_cursor_link.png), auto;
+}
+
+h3{
+    font-size: 2em;
+    text-align: center;
+    text-decoration: underline 2px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#Polypusito img{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 100px;
+}
+
+#Polypusito img:hover{
+    width: 110px;
+}
+
+.fotos{
+    margin: auto;
+    max-height: 550px;
+    max-width: 80%;
+    border: 5px solid rgba(84, 159, 202, 0.892);
+    border-radius: 20px;
+    overflow-y: scroll;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.fotos img {
+    border-radius: 20px;
+}
+
+.fotos img:hover{
+    border: 3px solid rgba(84, 188, 202, 0.892);
+}
+
+.columnatres{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 32%;
+}
+
+.columnados{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 49%;
+}

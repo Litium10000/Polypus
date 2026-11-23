@@ -1,0 +1,67 @@
+@font-face {
+    font-family: Pol;
+    src: url(Fonts/Pol.ttf);
+}
+
+html{
+    scrollbar-width: none;
+    cursor: url(Cursor/fish_cursor.cur), url(Cursor/fish_cursor.png), auto;
+}
+
+*{
+    font-family: Pol;
+    padding: 0px;
+    margin: 0px;
+}
+
+button, input, a:hover {
+    cursor: url(Cursor/fish_cursor_link.cur), url(Cursor/fish_cursor_link.png), auto;
+}
+
+nav{
+    background-color: rgba(0, 170, 255, 0.5);
+    position: sticky;
+    top: 0px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a{
+    color: rgb(18, 35, 63);
+}
+
+nav a:hover{
+    letter-spacing: 5px;
+    text-decoration: underline 2px rgb(150, 255, 255);
+}
+
+#aca{
+    color: rgb(21, 122, 180);
+    text-decoration: underline rgb(19, 82, 137);
+}
+
+body{
+    background-image: linear-gradient(rgb(161, 241, 255),rgb(0, 0, 28));
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#Polypusito img{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 100px;
+}
+
+#Polypusito img:hover{
+    width: 110px;
+}

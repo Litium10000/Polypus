@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Pol;
+    src: url(Fonts/Pol.ttf);
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(61, 136, 201);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: url(Cursor/fish_cursor.png), auto;
+}
+
+a, button, input:hover {
+    cursor: url(Cursor/fish_cursor_link.png), auto;
+}
+
+div{
+    max-width: 75%;
+    padding: 50px;
+    border: 15px solid;
+    border-image-source: url(Recursos/Blue_border.png);
+    border-image-slice: 16 16 16 16;
+    border-image-repeat: round;
+    background-image: linear-gradient(rgb(187, 253, 255),rgb(149, 236, 255));
+    background-repeat: no-repeat;
+    font-family: Pol;
+    font-size: large;
+    display: grid;
+}
+
+form{
+    place-self: center;
+}
+
+h1{
+    font-size: 2.5rem;
+}

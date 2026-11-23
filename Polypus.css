@@ -1,0 +1,104 @@
+@font-face {
+    font-family: Pol;
+    src: url(Fonts/Pol.ttf);
+}
+
+html{
+    scrollbar-width: none;
+    cursor: url(Cursor/fish_cursor.cur), url(Cursor/fish_cursor.png), auto;
+}
+
+*{
+    font-family: Pol;
+    padding: 0px;
+    margin: 0px;
+}
+
+button, input, a:hover {
+    cursor: url(Cursor/fish_cursor_link.cur), url(Cursor/fish_cursor_link.png), auto;
+}
+
+nav{
+    background-color: rgba(0, 170, 255, 0.5);
+    position: sticky;
+    top: 0px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a{
+    color: rgb(18, 35, 63);
+}
+
+nav a:hover{
+    letter-spacing: 5px;
+    text-decoration: underline 2px rgb(150, 255, 255);
+}
+
+#aca{
+    color: rgb(21, 122, 180);
+    text-decoration: underline rgb(19, 82, 137);
+}
+
+header{
+    background-image: url(Polypus/Playa14.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-position-y: bottom;
+    height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: rgb(103, 232, 255);
+    font-size: 5em;
+    text-align: center;
+}
+
+h2{
+    font-size: 2em;
+    text-align: center;
+    color: rgb(18, 35, 63);
+}
+
+#notheader{
+    background-image: linear-gradient(rgb(161, 241, 255),rgb(0, 0, 28));
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+h3{
+    font-size: 2em;
+    text-align: center;
+    text-decoration: underline 2px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#Polypusito img{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 100px;
+}
+
+#Polypusito img:hover{
+    width: 110px;
+}
+
+#parche{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    overflow: hidden;
+}
