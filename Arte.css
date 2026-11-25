@@ -104,7 +104,7 @@ h3{
 }
 
 .Cuadros img{
-    border-image: url(Arte/Cuadros/marco.png);
+    border-image: url(Arte/Cuadros/Marco.png);
     border-image-slice: 65 75 65 75;
     border-image-width: 40px 40px 40px 40px;     
 }
