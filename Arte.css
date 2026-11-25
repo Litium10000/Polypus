@@ -12,6 +12,7 @@ html{
     font-family: Pol;
     padding: 0px;
     margin: 0px;
+    scrollbar-width: none;
 }
 
 button, input, a:hover {
@@ -104,7 +105,7 @@ h3{
 
 .Cuadros img{
     border-image: url(Arte/Cuadros/marco.png);
-    border-image-slice: 65 76 61 74;
+    border-image-slice: 65 75 65 75;
     border-image-width: 40px 40px 40px 40px;     
 }
 
