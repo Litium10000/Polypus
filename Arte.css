@@ -66,6 +66,12 @@ a{
     width: 110px;
 }
 
+h3{
+    font-size: 2em;
+    text-align: center;
+    text-decoration: underline 2px;
+}
+
 .fotos{
     margin: auto;
     max-height: 550px;
