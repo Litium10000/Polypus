@@ -73,26 +73,6 @@ h3{
     text-decoration: underline 2px;
 }
 
-.fotos{
-    margin: auto;
-    max-height: 550px;
-    max-width: 80%;
-    border: 5px solid rgba(84, 159, 202, 0.892);
-    border-radius: 20px;
-    overflow-y: scroll;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-}
-
-.fotos img {
-    border-radius: 20px;
-}
-
-.fotos img:hover{
-    border: 3px solid rgba(84, 188, 202, 0.892);
-}
-
 .Cuadros{
     margin: auto;
     max-height: 550px;
@@ -103,10 +83,24 @@ h3{
     padding: 20px;
 }
 
-.Cuadros img{
-    border-image: url(Arte/Cuadros/Marco.png);
-    border-image-slice: 65 75 65 75;
-    border-image-width: 40px 40px 40px 40px;     
+.Cuadros .cuadro{
+    border: 60px solid;
+    border-image-source: url(Arte/Cuadros/Marco.png);
+    border-image-slice: 60 75 60 75;
+}
+
+.Cuadros .Foto:hover{
+    border: 3px solid rgba(84, 188, 202, 0.892);
+    border-radius: 30px;
+}
+.desc{
+    background-color: #caf7ff;
+    border: 3px solid rgb(200, 196, 87);
+    min-height: fit-content;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    align-self: center;
 }
 
 .columnatres{
